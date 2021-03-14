@@ -20,7 +20,8 @@ export class ChartRouter {
             });
             router
             .post('/McapChart', (request: Request, response: Response, next: NextFunction) => {
-                ChartService.GenerateCapitalChart(request.body)
+                var orderBook:Marketcap = request.body;
+                ChartService.GenerateCapitalChart(orderBook)
                 .then(res => {
                     var data = res as string;
                     response.send(data);

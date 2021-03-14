@@ -1,12 +1,12 @@
 export class Marketcap {
-    public volume:any
-    public cap:any
+    public Volume:any
+    public Cap:any
     /**
      *
      */
     constructor(vol:any,_cap:any) {
-        this.volume = vol;
-        this.cap =_cap;
+        this.Volume = vol;
+        this.Cap =_cap;
         
     }
 }
