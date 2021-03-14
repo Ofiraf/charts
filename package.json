@@ -15,7 +15,7 @@
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "express-validator": "^5.0.2",
-    "highcharts-export-server": "^2.0.13",
+    "highcharts-export-server": "^2.1.0",
     "highcharts-server": "^1.0.2",
     "jquery": "^3.3.1",
     "node-binance-api": "^0.5.0",
