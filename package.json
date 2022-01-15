@@ -34,7 +34,7 @@
     "@types/supertest": "^2.0.4",
     "jest": "^22.4.2",
     "nodemon": "^1.17.1",
-    "shelljs": "^0.8.1",
+    "shelljs": "^0.8.5",
     "supertest": "^3.0.0",
     "ts-jest": "^22.4.0",
     "ts-node": "^5.0.0",
